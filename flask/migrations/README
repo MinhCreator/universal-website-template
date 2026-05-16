@@ -1,0 +1,6 @@
+Database migration files managed by Flask-Migrate (Alembic).
+
+Run migrations with:
+  flask db init
+  flask db migrate -m "message"
+  flask db upgrade

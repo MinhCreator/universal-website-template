@@ -1,0 +1,38 @@
+.prose {
+  line-height: 1.75;
+}
+
+.prose h1,
+.prose h2,
+.prose h3,
+.prose h4 {
+  font-weight: 600;
+  color: var(--color-secondary-900);
+  margin-top: 2em;
+  margin-bottom: 0.5em;
+}
+
+.prose p {
+  margin-bottom: 1em;
+  color: var(--color-secondary-600);
+}
+
+.prose a {
+  color: var(--color-primary-600);
+  text-decoration: underline;
+}
+
+.prose code {
+  background-color: var(--color-secondary-100);
+  padding: 0.2em 0.4em;
+  border-radius: 4px;
+  font-size: 0.875em;
+}
+
+.prose pre {
+  background-color: var(--color-secondary-900);
+  color: var(--color-secondary-100);
+  padding: 1em;
+  border-radius: 8px;
+  overflow-x: auto;
+}
